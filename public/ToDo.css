@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(144,218,179);
+background: linear-gradient(180deg, rgba(144,218,179,1) 0%, rgba(66,107,227,1) 94%);
+    height:100vh;
+}
+
+
+.innermain {
+   
+    background-color: white;
+    padding:5px 25px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.in1{
+    margin:15px 0px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.in2{
+    margin:10px 0px;
+    display:flex;
+}
+
+
+.in2>input{
+    height:40px;
+    width:295px;
+    padding:0px 10px;
+    border:2px solid rgb(190, 188, 188);
+    border-radius: 3px;
+    outline:none;
+    font-size:15px;
+    font-weight: 500;
+}
+.in2>button{
+    height:40px;
+    width:50px;
+    margin-left:5px;
+    font-size: 25px;
+    font-weight:700;
+    background-color: #1e3799;
+    color:white;
+    border-radius:3px;
+    border:none;
+    cursor: pointer;
+}
+
+
+.NewNote{
+    display:flex;
+ 
+}
+.NewNote>p{
+    background-color:rgba(227, 227, 227, 0.719);
+    font-size:15px;
+    font-weight: 500;
+    padding:8px;
+    width:300px;
+    margin:5px 0px;
+    color:rgb(78, 78, 78);
+    border-radius: 3px 0px 0px 3px;
+}
+.NewNote>button{
+    height:40px;
+    width:50px;
+    font-size:16px;
+    margin:5px 0px;
+    background-color: #f11426ce;
+    color: white;
+    border:none;
+    border-radius: 0px 3px 3px 0px;
+    cursor: pointer;
+}
+
+
+.in4{
+    display:flex;
+    justify-content: space-between;
+    margin:15px 0px;
+    align-items: center;
+}
+.in4>p{
+    font-size:15px;
+    font-weight: 500;
+    color:rgb(52, 51, 51);
+}
+.in4>button{
+   
+    font-size: 15px;
+    font-weight:500;
+    background-color: #1e3799;
+    color:white;
+    border-radius:3px;
+    border:none;
+    padding: 10px 14px;
+}
